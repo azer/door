@@ -1,0 +1,27 @@
+
+    USAGE
+
+        door [config] [options]
+
+    CONFIG
+
+       Any JSON file.
+
+       Example:
+
+        {
+          "foo.com": "localhost:3001",
+          "bar.net": "localhost:3002",
+          "static.net": "/home/azer/sites/bar.net"
+        }
+
+
+    OPTIONS
+
+        -p      --port        Target port.
+        -v      --version     Show version and exit.
+        -h      --help        Show this help and exist.
+
+    DEBUG
+
+      DEBUG=door:* door config.json

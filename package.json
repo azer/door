@@ -1,0 +1,26 @@
+{
+  "name": "door",
+  "version": "0.0.0",
+  "description": "Http proxy server with auto-reload and static file serving",
+  "main": "index.js",
+  "bin": {
+    "door": "./bin/door"
+  },
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "read-json": "0.0.0",
+    "buffet": "~0.5.0",
+    "debug": "~0.7.2",
+    "http-proxy": "~0.10.2",
+    "optimist": "~0.4.0",
+    "attr": "0.0.1"
+  },
+  "repository": {
+    "url": "git@github.com:azer/door.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
