@@ -19,5 +19,6 @@ if(argv.help || argv._.length == 0) help();
 if(argv.version) version();
 
 process.stdout.write('\u001B[2J\u001B[0;0f');
+process.stdout.write('\n');
 
 cli(argv);
