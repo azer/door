@@ -32,6 +32,7 @@ To change the port number:
 $ door config.json -p 80
 ```
 
-It'll be watching changes on config.json and reloading the proxy table.
+No need to restart the server after changes. It watches the config file for changes and
+updates its proxy table *(if no error occurred)* automatically.
 
 ![](https://dl.dropboxusercontent.com/s/lz5re7hq3qmc6wm/npmel_20.jpg)
