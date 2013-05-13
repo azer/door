@@ -2,6 +2,8 @@
 
 Minimalistic HTTP proxy server with config auto-reloading and static file serving.
 
+![](https://dl.dropboxusercontent.com/s/h7h40tl3j56jqtx/door.png)
+
 ## Install
 
 ```bash
