@@ -1,4 +1,5 @@
 {
-  "app1.ak47.io": "localhost:3001",
-  "app2.ak47.io": "/home/azer/dev/new-reactive/example"
+  "foo.com": "localhost:3001",
+  "bar.net": "localhost:3002",
+  "static.org": "/home/azer/sites/bar.org"
 }
