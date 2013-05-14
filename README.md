@@ -18,7 +18,7 @@ Create a configuration file:
 {
   "foo.com": "localhost:3001",
   "bar.net": "localhost:3002",
-  "static.net": "/home/azer/sites/bar.net"
+  "static.org": "/home/azer/sites/bar.org"
 }
 ```
 
