@@ -15,8 +15,8 @@ var cli     = require('../lib/cli'),
     help    = require('../lib/help'),
     version = require('../lib/version');
 
-if(argv.help || argv._.length == 0) help();
 if(argv.version) version();
+if(argv.help || argv._.length == 0) help();
 
 process.stdout.write('\u001B[2J\u001B[0;0f');
 process.stdout.write('\n');
