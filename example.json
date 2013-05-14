@@ -1,5 +1,5 @@
 {
-  "foo.com": "localhost:3001",
-  "bar.net": "localhost:3002",
+  "foo.com": ":3001",
+  "bar.net": ":3002",
   "static.org": "/home/azer/sites/bar.org"
 }
