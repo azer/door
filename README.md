@@ -16,6 +16,7 @@ Create a configuration file:
 
 ```json
 {
+  "*": "localhost:3000",
   "foo.com": "localhost:3001",
   "bar.net": "localhost:3002",
   "static.org": "/home/azer/sites/bar.org"
