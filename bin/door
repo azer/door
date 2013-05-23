@@ -4,17 +4,24 @@ var opt = require('optimist'), argv;
 
 argv = opt
   .options('port', { alias: 'p' })
+  .options('daemon', { alias: 'd' })
+  .options('stop', { alias: 's' })
   .options('version', { alias: 'v' })
   .options('help', { alias: 'h' })
   .argv;
 
 !process.env.DEBUG &&
-  ( process.env.DEBUG = 'door:index,door:server,door:map,door:table' );
+  ( process.env.DEBUG = 'door:index,door:server,door:map,door:table,door:daemon,door:stop' );
+
+argv.daemon && ( require('../lib/debug')('daemon')('Running as daemon on the background. Pid written into ./door.pid'),
+                 require('daemon')('door.pid') );
 
 var cli     = require('../lib/cli'),
     help    = require('../lib/help'),
+    stop    = require('../lib/stop'),
     version = require('../lib/version');
 
+if(argv.stop) stop();
 if(argv.version) version();
 if(argv.help || argv._.length == 0) help();
 

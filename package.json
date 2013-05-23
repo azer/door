@@ -15,7 +15,8 @@
     "debug": "~0.7.2",
     "http-proxy": "~0.10.2",
     "optimist": "~0.4.0",
-    "attr": "0.0.1"
+    "attr": "0.0.1",
+    "daemon": "~1.1.0"
   },
   "repository": {
     "url": "git@github.com:azer/door.git",

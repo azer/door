@@ -19,6 +19,8 @@
     OPTIONS
 
         -p      --port        Target port.
+        -d      --daemon      Run as daemon on the background.
+        -s      --stop        Stop the running daemon.
         -v      --version     Show version and exit.
         -h      --help        Show this help and exist.
 
