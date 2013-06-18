@@ -1,6 +1,6 @@
 {
   "name": "door",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Http proxy server with auto-reload and static file serving",
   "main": "index.js",
   "bin": {
