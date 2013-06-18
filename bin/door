@@ -17,13 +17,11 @@ argv.daemon && ( require('../lib/debug')('daemon')('Running as daemon on the bac
                  require('daemon')('door.pid') );
 
 var cli     = require('../lib/cli'),
-    help    = require('../lib/help'),
-    stop    = require('../lib/stop'),
-    version = require('../lib/version');
+    stop    = require('../lib/stop');
 
 if(argv.stop) stop();
-if(argv.version) version();
-if(argv.help || argv._.length == 0) help();
+if(argv.version) require('show-version');
+if(argv.help || argv._.length == 0) require('show-help');
 
 process.stdout.write('\u001B[2J\u001B[0;0f');
 process.stdout.write('\n');

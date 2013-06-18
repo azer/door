@@ -3,6 +3,6 @@ var debug  = require('./lib/debug')('index'),
 
 module.exports = server;
 
-process.on('uncaughtException', function(err) {
+/*process.on('uncaughtException', function(err) {
   debug('Caught exception: ' + err);
-});
+});*/
