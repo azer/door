@@ -41,7 +41,7 @@ updates its proxy table *(if no error occurred)* automatically.
 Wanna run it as a daemon on the background?
 
 ```bash
-$ shell-jobs new.jobs -d
+$ door config.json -d
 ```
 
 ![](https://dl.dropboxusercontent.com/s/lz5re7hq3qmc6wm/npmel_20.jpg)
