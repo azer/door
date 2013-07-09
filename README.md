@@ -4,6 +4,8 @@ Minimalistic HTTP proxy server with config auto-reloading and static file servin
 
 ![](https://dl.dropboxusercontent.com/s/h7h40tl3j56jqtx/door.png)
 
+Also checkout the rewrite of Door in Golang: [boxcars](http://github.com/azer/boxcars)
+
 ## Install
 
 ```bash
