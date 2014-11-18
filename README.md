@@ -1,3 +1,7 @@
+## deprecated
+
+Please use [boxcars](http://github.com/azer/boxcars) instead of this. boxcars provides way better performance and more features.
+
 ## door
 
 Minimalistic HTTP proxy server with config auto-reloading and static file serving.
